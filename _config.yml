@@ -1,11 +1,17 @@
 # Site settings
 title: Andrew Mao @ 863.14
 email: "mizzao _AT_ gmail.com"
+
 description: > # this means to ignore newlines until "baseurl:"
   Blog for MAS 863 made in Jekyll. Consider using Jekyll
   if you want to spend your time building stuff rather than writing HTML!
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://fab.cba.mit.edu/classes/863.14/people/andrew_mao/" # the base hostname & protocol for your site
+  See the About page for more details.
+
+# the subpath of your site, e.g. /blog/
+baseurl: "/classes/863.14/people/andrew_mao/" 
+
+# the base hostname & protocol for your site
+url: "http://fab.cba.mit.edu/classes/863.14/people/andrew_mao" 
 twitter_username: mizzao
 github_username:  mizzao
 
