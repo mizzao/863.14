@@ -9,8 +9,6 @@ layout: default
   <ul class="post-list">
     {% for post in site.posts %}
       <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
         <h2 class="wrapper">
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
               {% if post.image %}<img style="float: right" src="{{ post.image }}" height="200">{% endif %}
@@ -20,7 +18,5 @@ layout: default
       </li>
     {% endfor %}
   </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
 </div>
